@@ -5,7 +5,7 @@ People want good stuff, so do I. TBH, I kind of consider myself a fanatic for IC
 A sweet dream is promised but it's no where near completion, and I don't see the future yet, as many others, dispite engineers from HoC being confident what IC will be. 
 In this article, I will summarize from reviews that HVM2 received, and try to make it clear what HVM2 actually is and the limitations we have for now. I hope this will get you a more cool-minded view.
 
-## Some numbers
+## Performance
 
 Here is some benchmarks, I gathered from the internet from different individuals.
 
@@ -31,6 +31,9 @@ print(sum(30, 0))
 | Bend, CPU, Apple M3 Max | 1 | 3.5min |
 | Bend, CPU, Apple M3 Max | 16 | 10.26s |
 | Bend, GPU, NVIDIA RTX 4090 | 32k | 1.88s |
+
+### energy-efficiency
+- No guarantee on power efficiency at all.
 
 ## Limitations
 ### Limitations of the implementation(HVM2)
