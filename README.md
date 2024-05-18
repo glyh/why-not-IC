@@ -64,3 +64,6 @@ Some reference from [reddit r/CUDA](https://www.reddit.com/r/CUDA/comments/1cu5o
   - Obviously not comparable with CUDA, OpenCL, etc. As auto-parallelization could never beat hand-rolled parallel algorithm.
   - Didn't beat something like mojo or cupy as well. Don't see a promising future as well.
 
+
+## Insights
+- Modern GPU, while usable for Interaction Combinator reduction, is inheretly an inefficient solution for it. We may need specific hardware and architecture for Interaction Combinators.
