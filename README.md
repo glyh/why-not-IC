@@ -64,6 +64,7 @@ Some reference from [reddit r/CUDA](https://www.reddit.com/r/CUDA/comments/1cu5o
 - How is it not a solution in search for a problem? Where's the niche?
   - Obviously not comparable with CUDA, OpenCL, etc. As auto-parallelization could never beat hand-rolled parallel algorithm.
   - Didn't beat something like mojo or cupy as well. Don't see a promising future as well.
+  - Bend/HVM should search for a problem domain where it delivers a unique and valuable tradeoff in terms of simplicity & performance.
 
 
 ## Insights
