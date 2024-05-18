@@ -45,6 +45,8 @@ Some reference from [hacker news](https://news.ycombinator.com/item?id=40390287)
 - 24bit tagged numbers
 - No array data types
 - Maximum 4GB heap of nodes
+  - Underwhelming, as workloads that actually would want to run on GPU may bypass such restriction.
+  - Scaling is pitched, but with less than 4GB memory for data, scaling is unlikely to kick in and beat performant implementation that scales worse.
 
 ### Limitation on the theretical point of view
 
@@ -56,8 +58,8 @@ Some reference from  [hacker news](https://news.ycombinator.com/item?id=40394814
 
 ## Expectation not fullfilled
 Some reference from [reddit r/CUDA](https://www.reddit.com/r/CUDA/comments/1cu5oce/comment/l4gngzc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
-- People don't care much about "scaling", as what all we want, ultimately, it's performance
-  - "How fast would a naive conv or matmul run compared to sota on this? If it just schedules loops on the gpu im not amazed"
+- "How fast would a naive conv or matmul run compared to sota on this? If it just schedules loops on the gpu im not amazed"
+- We care scaling only because we care the performance it might imply.
 - How is it not a solution in search for a problem? Where's the niche?
   - Obviously not comparable with CUDA, OpenCL, etc. As auto-parallelization could never beat hand-rolled parallel algorithm.
   - Didn't beat something like mojo or cupy as well. Don't see a promising future as well.
