@@ -40,6 +40,7 @@ print(sum(30, 0))
 
 Some reference from [hacker news](https://news.ycombinator.com/item?id=40390287)
 - No serious examples that directly compare Bend/HVM to  it's OMP/CUDA.
+  - Yes, I am aware of this is like comparing C to Python. But there seem to be no clear clarification that "Bend/HVM will never be at OMP/CUDA level".
 - Too many allocations
 - No TCO
 - 24bit tagged numbers
